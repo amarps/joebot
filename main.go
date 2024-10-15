@@ -1,8 +1,6 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/amarps/joebot/cmd"
 	// "github.com/labstack/echo"
 	// "github.com/labstack/echo/middleware"
@@ -28,10 +26,6 @@ var (
 )
 
 func main() {
-	defer func() {
-		fmt.Println("Ended")
-	}()
-
 	cmd.Execute()
 
 	// switch kingpin.MustParse(app.Parse(os.Args[1:])) {
