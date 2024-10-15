@@ -4,7 +4,7 @@ go 1.23.2
 
 require (
 	github.com/amarps/gotty v0.0.0-20241015150555-406cf3cdb0ed
-	github.com/asdine/storm v2.1.2+incompatible
+	github.com/asdine/storm/v3 v3.2.1
 	github.com/filebrowser/filebrowser/v2 v2.31.2
 	github.com/ginuerzh/gost v0.0.0-20241011080244-87d6a2fdc2cc
 	github.com/hashicorp/yamux v0.1.2
@@ -27,7 +27,6 @@ require (
 	github.com/aead/chacha20 v0.0.0-20180709150244-8b13a72661da // indirect
 	github.com/andybalholm/brotli v1.1.0 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2 // indirect
-	github.com/asdine/storm/v3 v3.2.1 // indirect
 	github.com/asticode/go-astikit v0.42.0 // indirect
 	github.com/asticode/go-astisub v0.26.2 // indirect
 	github.com/asticode/go-astits v1.13.0 // indirect
