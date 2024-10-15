@@ -5,11 +5,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/harmonicinc-com/joebot/models"
-	"github.com/harmonicinc-com/joebot/utils"
+	"github.com/amarps/joebot/models"
+	"github.com/amarps/joebot/utils"
 	"github.com/pkg/errors"
 
-	"github.com/harmonicinc-com/joebot/task"
+	"github.com/amarps/joebot/task"
 )
 
 type SSHTunnelTask struct {

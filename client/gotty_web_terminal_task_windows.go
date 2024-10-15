@@ -3,7 +3,7 @@ package client
 import (
 	"net"
 
-	"github.com/harmonicinc-com/joebot/task"
+	"github.com/amarps/joebot/task"
 	"github.com/pkg/errors"
 )
 

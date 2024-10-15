@@ -4,11 +4,11 @@ import (
 	"context"
 	"crypto/tls"
 	"log"
+	"net/url"
 	"strconv"
 	"time"
 
 	"github.com/ginuerzh/gost"
-	// "github.com/ginuerzh/gost"
 )
 
 var (
@@ -115,7 +115,7 @@ func (g *GostTunnel) Serve() error {
 	}
 	h := gost.SSHForwardHandler(
 		gost.AddrHandlerOption(addr),
-		// gost.UsersHandlerOption(url.UserPassword("admin", "123456")),
+		gost.UsersHandlerOption(url.UserPassword("admin", "123456")),
 		gost.TLSConfigHandlerOption(tlsConfig()),
 	)
 

@@ -5,11 +5,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/harmonicinc-com/joebot/utils"
+	"github.com/amarps/joebot/utils"
 
-	"github.com/harmonicinc-com/joebot/handler"
-	"github.com/harmonicinc-com/joebot/models"
-	"github.com/harmonicinc-com/joebot/task"
+	"github.com/amarps/joebot/handler"
+	"github.com/amarps/joebot/models"
+	"github.com/amarps/joebot/task"
 	"github.com/hashicorp/yamux"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

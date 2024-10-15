@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/harmonicinc-com/joebot/models"
-	"github.com/harmonicinc-com/joebot/task"
-	"github.com/harmonicinc-com/joebot/utils"
+	"github.com/amarps/joebot/models"
+	"github.com/amarps/joebot/task"
+	"github.com/amarps/joebot/utils"
 	"github.com/pkg/errors"
 	"golang.org/x/net/websocket"
 )

@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/harmonicinc-com/joebot/models"
-	"github.com/harmonicinc-com/joebot/sshconnect"
-	"github.com/harmonicinc-com/joebot/utils"
+	"github.com/amarps/joebot/models"
+	"github.com/amarps/joebot/sshconnect"
+	"github.com/amarps/joebot/utils"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"github.com/twinj/uuid"

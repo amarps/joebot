@@ -1,3 +1,4 @@
+//go:build !windows
 // +build !windows
 
 package client
@@ -8,14 +9,14 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/harmonicinc-com/joebot/models"
-	"github.com/harmonicinc-com/joebot/task"
-	"github.com/harmonicinc-com/joebot/utils"
+	"github.com/amarps/joebot/models"
+	"github.com/amarps/joebot/task"
+	"github.com/amarps/joebot/utils"
 	"github.com/pkg/errors"
 
-	gotty_localcommand "github.com/yudai/gotty/backend/localcommand"
-	gotty_server "github.com/yudai/gotty/server"
-	gotty_utils "github.com/yudai/gotty/utils"
+	gotty_localcommand "github.com/amarps/gotty/backend/localcommand"
+	gotty_server "github.com/amarps/gotty/server"
+	gotty_utils "github.com/amarps/gotty/utils"
 )
 
 type GottyWebTerminalTask struct {

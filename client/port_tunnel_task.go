@@ -6,10 +6,10 @@ import (
 	"net"
 	"strconv"
 
+	"github.com/amarps/joebot/models"
+	"github.com/amarps/joebot/task"
+	"github.com/amarps/joebot/utils"
 	"github.com/ginuerzh/gost"
-	"github.com/harmonicinc-com/joebot/models"
-	"github.com/harmonicinc-com/joebot/task"
-	"github.com/harmonicinc-com/joebot/utils"
 	"github.com/pkg/errors"
 )
 

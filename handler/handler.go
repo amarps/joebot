@@ -6,7 +6,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/harmonicinc-com/joebot/task"
+	"github.com/amarps/joebot/task"
 	"github.com/hashicorp/yamux"
 	errors "github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
