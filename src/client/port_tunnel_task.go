@@ -6,9 +6,9 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/amarps/joebot/models"
-	"github.com/amarps/joebot/task"
-	"github.com/amarps/joebot/utils"
+	"github.com/amarps/joebot/src/models"
+	"github.com/amarps/joebot/src/task"
+	"github.com/amarps/joebot/src/utils"
 	"github.com/ginuerzh/gost"
 	"github.com/pkg/errors"
 )

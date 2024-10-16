@@ -5,11 +5,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/amarps/joebot/utils"
+	"github.com/amarps/joebot/src/utils"
 
-	"github.com/amarps/joebot/handler"
-	"github.com/amarps/joebot/models"
-	"github.com/amarps/joebot/task"
+	"github.com/amarps/joebot/src/handler"
+	"github.com/amarps/joebot/src/models"
+	"github.com/amarps/joebot/src/task"
 	"github.com/hashicorp/yamux"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

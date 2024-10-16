@@ -13,12 +13,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/amarps/joebot/models"
+	"github.com/amarps/joebot/src/models"
 	"github.com/asdine/storm/v3"
 	"github.com/spf13/afero"
 
-	"github.com/amarps/joebot/task"
-	"github.com/amarps/joebot/utils"
+	"github.com/amarps/joebot/src/task"
+	"github.com/amarps/joebot/src/utils"
 	"github.com/filebrowser/filebrowser/v2/auth"
 	"github.com/filebrowser/filebrowser/v2/diskcache"
 	"github.com/filebrowser/filebrowser/v2/frontend"

@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/amarps/joebot/models"
-	"github.com/amarps/joebot/sshconnect"
-	"github.com/amarps/joebot/utils"
+	"github.com/amarps/joebot/src/models"
+	"github.com/amarps/joebot/src/sshconnect"
+	"github.com/amarps/joebot/src/utils"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"github.com/twinj/uuid"
