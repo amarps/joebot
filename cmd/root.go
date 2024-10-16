@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"github.com/amarps/joebot/cmd/client"
+	"github.com/amarps/joebot/cmd/server"
 	"github.com/spf13/cobra"
 )
 
@@ -18,7 +19,9 @@ func Execute() error {
 }
 
 func init() {
+	serverCommand := server.Init()
 	clientCommand := client.Init()
+
 	rootCmd.AddCommand(clientCommand.Command)
-	rootCmd.AddCommand(initCmd)
+	rootCmd.AddCommand(serverCommand.Command)
 }
