@@ -105,7 +105,7 @@ func StartFilebrowserService(port string) (*http.Server, error) {
 		Rules:      []rules.Rule{},
 	}
 	server := &settings.Server{
-		Root:                  abs,
+		Root:                  scope,
 		BaseURL:               "",
 		Socket:                "",
 		Port:                  port,
